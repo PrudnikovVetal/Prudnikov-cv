@@ -7,15 +7,26 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.info p {
+  color: #86898f;
+  margin: 0%;
+  font-style: italic;
+  font-weight: bold;
+}
 .avatar {
   width: 176px;
   border-radius: 50%;
   box-shadow: 4px 4px 14px rgb(40, 41, 40);
 }
+.social {
+  font-style: italic;
+  background: #0f141e;
+}
 
-.info p {
-  color: #420c0f;
-  margin: 0%;
-  font-style: unset;
-  font-weight: bold;
+/*box model */
+
+.conteiner {
+  width: auto;
+  max-width: 750px;
+  margin: auto;
 }
